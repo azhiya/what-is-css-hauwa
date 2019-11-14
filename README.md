@@ -10,7 +10,7 @@
 
 After completing this lesson, participants will be able to:
 
-* Define what is CSS and the role it plays on a website (here is where I'm thinking the fundamental the role of HTML, CSS and Javascript can come in at a high level)
+* Define what is CSS and the role it plays on a website (the fundamental the role of HTML, CSS and Javascript)
 * Define the anatomy of a CSS block and illustrate how it can be applied to HTML
 * Illustrate how to use basic CSS to modify the HTML elements of your site (text, backgrounds)
 * Define what is a CSS class and id and show how it can be applied to the HTML elements of your site
@@ -64,6 +64,7 @@ How long will it take to present this lesson? Put an "x" in the brackets for the
 
 Participants will get the most from this lesson if they have familiarity with:
 
+* Basic computer literacy
 * Basic understanding of HTML
 * Basic knowledge of how to use a Text Editor
 
@@ -77,13 +78,6 @@ Participants will get the most from this lesson if they have familiarity with:
 * Do you have a basic knowledge of HTML?
 * Have you got access to and do you know how to use a Text Editor?
 
-> A list of questions for participants to see if they have the background and skills necessary to learn and understand the lesson.
->
-> _For example:_
->
-> *   Do you want to makes changes to your theme yourself?
-> *   Do you know how to write CSS?
-
 ## Slides
 
 > Change the `/repo-name/` in the link to match the URL name of this repo.
@@ -96,26 +90,10 @@ Participants will get the most from this lesson if they have familiarity with:
 * Text Editor/W3C CSS Validator
 * Online Picker Tool
 
-> A list of files, resources, equipment, or other materials the presenter will need for the lesson.
->
-> _For example:_
->
-> *   A local install of WordPress
-> *   The files for the TwentySixteen theme
-
 ## Notes for the Presenter
 
 * The lesson plan is meant to to be an introductory to CSS through demonstrations, exercises and tutorials. It is not a detailed course on CSS but an introduction to the topic for users who have a basic understanding of HTML and want to use CSS to style basic HTML elements.
 * Users must be able to answer ‘Yes’ to the first readiness question. If they answer ‘No’ to the second question then they can be directed to use the W3C CSS validator.
-
-> A list of any handy tips or other information for the presenter.
->
-> _For example:_
->
-> *  Participants may need to download the TwentySixteen theme before beginning
-> *  What to do if there’s no projector or internet available
-> *  What to do if a participant doesn’t have the necessary set up
-> *  How to handle different opinions about the topic
 
 ## Lesson Outline
 
@@ -129,42 +107,39 @@ Participants will get the most from this lesson if they have familiarity with:
 * Try to then take and complete a quiz
 * Finish with additional resources/reading material.
 
-> The plan for the lesson. Outline form works well.
->
-> _For example:_
->
-> * Talk about what a theme is
-> * Demonstrate how to install and activate a theme
-> * Practice exercises to have participants find and install a theme on their own site
-
 ## Exercises
 
-**Exercise 1 - Modify a Font **
-
-Short description of what the exercise does and what skills or knowledge it reinforces.
-
-*   Change the font size of a ‘H1 element’
-*   Make it bold
-
-**Exercise 2 - Modify the Background of a Page **
-
-Short description of what the exercise does and what skills or knowledge it reinforces.
-
-*   Change the background colour of the body section to ....
-
-**Exercise 3 - Add some padding to a container **
+**Exercise 1 - Add some padding to a container **
 
 Short description of what the exercise does and what skills or knowledge it reinforces.
 
 *   Add some padding to the image container
 
-**Exercise 4 - Modify all the H2 headers on this page **
+**Exercise 2 - Modify all the H2 headers on this page **
 
 Short description of what the exercise does and what skills or knowledge it reinforces.
 
 *   Change the font-size of all the 'H2 elements' on this page using a 'class'
 
-**Exercise 1 - Modify one H2 element on this page **
+**Exercise 3 - Modify one H2 element on this page **
+
+Short description of what the exercise does and what skills or knowledge it reinforces.
+
+*   Change the colour of of the 'H2' elements using an 'id'
+
+**Exercise 4 - Add some padding to a container **
+
+Short description of what the exercise does and what skills or knowledge it reinforces.
+
+*   Add some padding to the image container
+
+**Exercise 5 - Modify all the H2 headers on this page **
+
+Short description of what the exercise does and what skills or knowledge it reinforces.
+
+*   Change the font-size of all the 'H2 elements' on this page using a 'class'
+
+**Exercise 5 - Modify one H2 element on this page **
 
 Short description of what the exercise does and what skills or knowledge it reinforces.
 
@@ -177,41 +152,48 @@ Short description of what the exercise does and what skills or knowledge it rein
 
 There should be one assement item (or more) for each objective listed above. Each assessment item should support an objective; there should be none that don't.
 
-**You can use CSS to:**
+**CSS:**
 
-1.  Option
-2.  Option
-3.  Option
-4.  Option
+1.  Specifices how documents are presented to a user
+2.  Changes the colour and size of a HTML element
+3.  Defines the position of a HTML element on a page
+4.  All of the above
+
+**Answer:** 4\. Correct answer
+
+**The anatomy of CSS consists of:**
+
+1.  Selector, color, value
+2.  Value, selector, property
+3.  Selector, property, value
+4.  Color, value, selector
 
 **Answer:** 3\. Correct answer
 
 **You can use the font-size property to:**
 
-1.  Option
-2.  Option
-3.  Option
-4.  Option
+1.  Control the size of a font
+2.  Set the font to small, medium or large
+3.  Control the weight of a font
+4.  Set a font to italics
 
 **Answer:** 3\. Correct answer
 
 **You can use the background property to:**
 
-1.  Option
-2.  Option
-3.  Option
-4.  Option
+1.  Set the set the background color of an element
+2.  Control the position of text in a background
+3.  Control the repitition of an font in the background
+4.  All of the above
 
-**Answer:** 3\. Correct answer
+**Answer:** 1\. Correct answer
 
 **Which option is True:**
 
-1.  A CSS class .... and an ID ....
-2.  Option
-3.  Option
-4.  Option
+1.  A CSS class applies changes to a specific element and an ID applies changes to a group of elements
+2.  A CSS class applies changes to a group of elements and an ID applies changes to a specific element
 
-**Answer:** 3\. Correct answer
+**Answer:** 1\. Correct answer
 
 **The cascading effect is:**
 
