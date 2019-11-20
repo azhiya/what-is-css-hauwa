@@ -1,10 +1,8 @@
-# Repo Structure and Lesson Plan Template
-
-> <span style="color:red">Please remove all blockquote comments such as this before publishing.</span>
+# What is CSS Structure and Lesson Plan Template
 
 ## Description
 
-> In this lesson you will learn what is CSS (Cascading Style Sheets) and how it interacts with with the HTML elements of your website and Javascript. Learn how to use CSS to style those HTML elements and the 'cascading effect'.
+In this lesson you will learn what is CSS (Cascading Style Sheets) and how it interacts with with the HTML elements of your website and Javascript. Learn how to use CSS to style those HTML elements and the 'cascading effect'.
 
 ## Objectives
 
@@ -15,8 +13,6 @@ After completing this lesson, participants will be able to:
 * Illustrate how to use basic CSS to modify the HTML elements of your site (text, backgrounds)
 * Define what is a CSS class and id and show how it can be applied to the HTML elements of your site
 * Explain the 'cascading' effect and how you can arrange your CSS to reflect this
-
-> It’s required that you include a bulleted list of objective(s) for each lesson plan. Objectives should be worded as actions that the participant can do once they’ve finished. See [Bloom's Taxonomy of Action Verbs](http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf) (PDF) as a reference. Avoid using words like "know," "understand," "be introduced to," etc. There should be one assement item for each objective (see below).
 
 ## Target Audience
 
@@ -68,11 +64,6 @@ Participants will get the most from this lesson if they have familiarity with:
 * Basic understanding of HTML
 * Basic knowledge of how to use a Text Editor
 
-> _For example:_
->
-> *   Experience with HTML and CSS
-> *   Completed the Basic WordPress Concepts lesson
-
 ## Readiness Questions
 
 * Do you have a basic knowledge of HTML?
@@ -82,13 +73,15 @@ Participants will get the most from this lesson if they have familiarity with:
 
 > Change the `/repo-name/` in the link to match the URL name of this repo.
 
-*   [Slides](https://wptrainingteam.github.io/lesson-plans/repo-name/slides/) (files included in this repo)
+*   [Slides](https://wptrainingteam.github.io/lesson-plans/reo-name/slides/) (files included in this repo)
 
 ## Materials Needed
 
 * Web Browser
-* Text Editor/W3C CSS Validator
-* Online Picker Tool
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en)
+* [W3 HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+* [W3 HTML Color Names](https://www.w3schools.com/colors/colors_names.asp)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en)
 
 ## Notes for the Presenter
 
@@ -98,48 +91,76 @@ Participants will get the most from this lesson if they have familiarity with:
 ## Lesson Outline
 
 * First go through the description, objectives, the target audience this is aimed at the skills required and how the lesson will be delivered.
-* Move on to the demonstration that explains what CSS is and how it works with HTML and Javascript, reference the following: https://shecodes.com.au/wordpress-tutorial-code-overview/ https://www.youtube.com/watch?v=gT0Lh1eYk78&t=9s
-* Show them the anatomy of a CSS block and how it can be applied to a HTML element
-* Move on to the exercises
-* Explain what is a CSS ‘class’ and ‘id’ and when you would use them
-* Move on to the exercises
-* Explain the cascading effect
-* Try to then take and complete a quiz
+* Then start with 'Hands-on Walkthrough' and try to understand it.
+* After Finishing that go with Exercises, and then get them to try to complete the Assessment.
 * Finish with additional resources/reading material.
 
 ## Exercises
 
-**Exercise 1 - Add some padding to a container **
+**Exercise 1 - Modifying Fonts **
 
-Short description of what the exercise does and what skills or knowledge it reinforces.
+For this exercise, we will be making changes to the h1 elements on index.html and we have prewritten some CSS code under styles.css
 
-*   Add some padding to the image container
+index.html
+<h1>Everything Cupcake</h1>
+<h2>First Cupcake</h2>
+<p>Gummies muffin donut. Sweet marshmallow halvah dessert I love lemon drops lollipop brownie bonbon. I love pudding cake icing liquorice.
+</p>
+<h2>Second Cupcake</h2>
+<p>Donut bear claw cake pie I love halvah. Cake cotton candy donut sweet cheesecake I love wafer liquorice tiramisu. Pie oat cake halvah cake candy. Chocolate tiramisu tiramisu tiramisu jelly-o bear claw sugar plum oat cake soufflé.</p>
+<h2>Third Cupcake</h2>
+<p>Dragée I love chocolate bear claw marzipan cheesecake danish. Oat cake candy oat cake pudding gummies. Halvah gingerbread I love cotton candy apple pie sweet roll cheesecake. Tiramisu jelly beans danish soufflé pie sweet marzipan candy.</p>
 
-**Exercise 2 - Modify all the H2 headers on this page **
+style.css
+h1 {
+font-family: arial;
+color: black;
+text-align: right;
+font-weight: italic;
+}
+h2{
+font-family: arial;
+color: black;
+text-align: center;
+font-size: 24px;
+}
+p {
+color: red;
+font-size: 22px;
+font-family: georgia;
+text-align: justify;
+}
 
-Short description of what the exercise does and what skills or knowledge it reinforces.
+Make the following changes
+1. Change the h1 font to Georgia
+2. Align the h1 text to align to the center
+3. Change font to be bold
+4. Add a font size property to h1 and set it 36px
+5. Change the color of the h2 font to dark grey
+6. Change the h2 text to align to the left
+7. Change the paragraph font size to 18 pixels
+8. Change the paragraph font color to black
 
-*   Change the font-size of all the 'H2 elements' on this page using a 'class'
+**Exercise 2 - Backgrounds, Colors and Padding **
 
-**Exercise 3 - Modify one H2 element on this page **
+For this exercise, we will be adding color to the background of some HTML elements and assigning some padding to these elements. See index.html and we have prewritten some CSS code under styles.css
 
-Short description of what the exercise does and what skills or knowledge it reinforces.
+index.html
+set the background of each #color-div
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
 
-*   Change the colour of of the 'H2' elements using an 'id'
+Set the background of header to x
+Assign x to footer
+Assign x to aside
 
-**Exercise 4 - Add some padding to a container **
+ID vs. Class You may notice in the above example, some selectors have a "#" in front of them, and some have a "." in front of them. This is used to denote if there is an ID or a class associated with this HTML element. Each ID is used only once. Groups can be used for more than one HTML element.
 
-Short description of what the exercise does and what skills or knowledge it reinforces.
-
-*   Add some padding to the image container
-
-**Exercise 5 - Modify all the H2 headers on this page **
-
-Short description of what the exercise does and what skills or knowledge it reinforces.
-
-*   Change the font-size of all the 'H2 elements' on this page using a 'class'
-
-**Exercise 5 - Modify one H2 element on this page **
+**Exercise 3 - Adding a Background Image **
 
 Short description of what the exercise does and what skills or knowledge it reinforces.
 
@@ -222,14 +243,71 @@ There should be one assement item (or more) for each objective listed above. Eac
 > * Link to information on the Codex
 > * Theme Review Team's Handbook
 
-## Example Lesson
+## Hands-on Walkthrough
 
 > An example of how the lesson plan can be implemented. Written in script form as one possible way an presenter might use this lesson plan at an event, with screenshots and instructions if necessary.
 
-### Section Heading for Example Lesson
 
-> You will likely need to break the Example Lesson down into multiple sections.
+### What is CSS? What does it do?
+
+Welcome to What is CSS! Today you are going to learn about CSS and how you can use it to alter the “look and feel” of a HTML element by modifying its existing Cascading Style Sheet (CSS) file , as well as write a few new styles of your own. We are going to watch a short video that explains what is CSS and how it fits in with HTML and Javascript. Play the video https://www.youtube.com/watch?v=gT0Lh1eYk78&t=9s In practical terms, the code found in a site's CSS file determines the appearance of your site by applying style rules to HTML content, which has no style of its own. Another way to visualize this is to think of your site as an HTML "mannequin" and CSS as the "clothing" you put on it. Just like a mannequin's clothing, you can change the CSS of your site any time you like, without altering its underlying HTML structure.
+
+### Learning the Lingo: Selectors, Properties, and Values
+
+Like any foreign language, CSS can be made easier to understand by breaking down each "sentence" into its individual components. Because our plan is to find and modify the existing CSS of HTML elements, this will help you to better understand what is going on.
+* Selector - The HTML element that you want to change.
+* Property - What you are changing about it.
+* Value - What you are changing it to.
+
+### CSS Properties
+Here are some CSS properites that you can use
+
+1. For Text
+font-family assigns the font of the text. For example, Arial, Georgia, Helvetica, Times
+font-size assigns the size of the text. For example pixels (16px) or ems (2ems)
+font-color assigns the color of the text. For example web safe colors like red, blue and green; or Hexidecimal codes like #000, #fff
+text-align aligns the text to a position on the page. For example, left, right, center
+font-weight sets the font to bold, bolder or light
+
+2. For Backgrounds
+
+Like any foreign language, CSS can be made easier to understand by breaking down each "sentence" into its individual components. Because our plan is to find and modify the existing CSS of HTML elements, this will help you to better understand what is going on.
+* Selector - The HTML element that you want to change.
+* Property - What you are changing about it.
+* Value - What you are changing it to.
+
+### How to target a specific element in CSS?
+
+There are different ways to target a specific element in CSS depending upon the element itself. Below are the most common ways to target an element.
+
+1.Using its element name.
+Targeting element with its name is the most common way. we will use its name to target it and give it new properties and values. Let's see how it works.
+If you want to target a 'p' tag and assign its font-size property to 16px you will do that as below:
+p {
+font-size: 16px;
+}
+Note: Here all 'p' tags in your document will be targeted.
+
+2.Using its class.
+A single class can be used multiple times and for different elements in a single document. If the element to be targeted has class, you can target it using that class. For targeting a class in CSS you will use a dot '.' before its class name. Let's see how it works.
+Assume you have a 'p' tag with class 'text-small' which will look something like this <p class="text-small">Hello World!</p> and you want its 'font-size' to be '12px'. You will write it as below:
+p.text-small {
+    font-size: 12px;
+}
+Note: Here only 'p' tags with class 'text-small' will be targeted. If you want all the elements, no matter which they are, to be targeted you will simply remove 'p' and will just use .text-small. This will target all the element with class 'text-small'.
+
+3.Using its ID.
+Unlike class, id should be always unique in your HTML document. To target an element with id you will have to just replace that dot '.' which you used for class with hash '#'. For example, if you have a 'p' tag with id 'name' which will look something like this: <p id="name">John Doe</p> and you want it to be bold you will target it as follow:
+#name {
+    font-weight: bold;
+}
+Note: While targeting id you can also mention tag name before id name. It will look like this 'p#name'.
+
+### The Cascading Effect
+
+![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Follow with the [Exercises](#Exercises) and [Assessment](#Assessment) outlined above.
+
 
 ### Lesson Wrap Up
 
-![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Follow with the [Exercises](#Exercises) and [Assessment](#Assessment) outlined above.
+![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Now that we've gone through what a CSS block looks like and how you can target specific elements in CSS, we are going to practice modifying CSS to see how it changes a HTML element. Follow with the [Exercises](#Exercises) and [Assessment](#Assessment) outlined above.
